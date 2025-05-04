@@ -1,0 +1,4 @@
+baseURL = 'https://xerogi2k.github.io/ovos_lab3/'
+languageCode = 'ru'
+title = 'Резюме Гусев Сергей'
+theme = 'ananke'
