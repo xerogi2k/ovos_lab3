@@ -10,13 +10,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive  # Важно для тем-подмодулей
+          submodules: recursive  # Темы подмодулей
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'v0.136.5'  # Укажите вашу версию Hugo
-          extended: true  # Если используете extended-версию
+          hugo-version: 'v0.128.1'  # Версия Hugo
+          extended: true  # extended-версия
 
       - name: Build
         run: hugo --minify --baseURL "https://xerogi2k.github.io/ovos_lab3/"
